@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH |grep ':/|/home' -o |  wc -l 
+echo $PATH |grep '/bin\|/sbin\|/home' -o |  wc -l 
