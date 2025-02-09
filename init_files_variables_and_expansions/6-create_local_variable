@@ -1,2 +1,2 @@
 #!/bin/bash
-foo(){ name=BEST Value="School"}
+local Name=BEST Value="School"
