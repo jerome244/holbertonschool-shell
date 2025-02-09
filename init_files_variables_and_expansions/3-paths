@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | grep '=/bin\|/usr/local/sbin\|:/' -o |  wc -l 
+echo $PATH | grep '=/\|/usr/local/sbin\|:/' -o |  wc -l 
