@@ -1,2 +1,2 @@
 #!/bin/bash
-cat <filename> | sort -i  | unique -u 
+sort | unique -u 
