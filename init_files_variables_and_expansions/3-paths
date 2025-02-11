@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | grep '/usr/local/sbin\|:/' -o | tr '\0' ':' | wc -l 
+export PATH=/bin::::/home:/usr:::::/home/me ; echo $PATH | tr : $'''''' | grep / | wc -l
